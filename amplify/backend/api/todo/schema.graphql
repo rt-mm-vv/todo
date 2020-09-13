@@ -1,5 +1,8 @@
 type Todo @model {
   id: ID!
-  name: String!
+  title: String!
+  content: String!
+  price: Int
+  rating: Float
   description: String
 }
